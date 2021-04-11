@@ -13,7 +13,11 @@ a {
 }
 
 .bg-red {
-    background-color: #D35649;
+    background-color: #d35649;
+}
+
+.color-red {
+    color: #d35649;
 }
 
 .logo {

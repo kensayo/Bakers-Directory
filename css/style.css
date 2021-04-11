@@ -1,7 +1,7 @@
 @import "reset.css";
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -22,4 +22,20 @@ a {
 
 .fs-7 {
     font-size: 0.8rem;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url("../img/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vw;    
+    max-height: 550px;
+}
+
+.search-form {
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.search {
+    min-height: 31px;
 }

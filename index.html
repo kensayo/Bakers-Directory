@@ -6,29 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TITLE HERE</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar bg-red d-flex flex-md-row flex-column justify-content-center justify-content-md-between align-items-center px-5">
+        <nav
+            class="navbar bg-red d-flex flex-md-row flex-column justify-content-center justify-content-md-between align-items-center px-5">
             <div class="d-flex flex-row align-items-center my-2">
                 <img src="img/logo.svg" class="img-fluid logo bg-light rounded-circle p-1" alt="Logo">
                 <h2 class="ps-3 fs-3 text-light fw-bold px-1">Pastry Directory</h2>
             </div>
             <div class="my-2">
                 <ul class="list-group list-group-horizontal">
-                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i class='mx-2 bx bx-search'></i><h5 class="fs-7 d-none d-lg-inline">BAKERYS</h5></a></li>
-                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i class='mx-2 bx bx-user'></i><h5 class=" fs-7 d-none d-lg-inline">ABOUT</h5></a></li>
-                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i class='mx-2 bx bx-rss' ></i><h5 class=" fs-7 d-none d-lg-inline">BLOG</h5></a></li>
-                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i class='mx-2 bx bx-menu' ></i><h5 class=" fs-7 d-none d-lg-inline">MORE</h5></a></li>
+                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i
+                                class='mx-2 bx bx-search'></i>
+                            <h5 class="fs-7 d-none d-lg-inline">BAKERYS</h5>
+                        </a></li>
+                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i
+                                class='mx-2 bx bx-user'></i>
+                            <h5 class=" fs-7 d-none d-lg-inline">ABOUT</h5>
+                        </a></li>
+                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i
+                                class='mx-2 bx bx-rss'></i>
+                            <h5 class=" fs-7 d-none d-lg-inline">BLOG</h5>
+                        </a></li>
+                    <li class="fw-bold px-3 px-md-3"><a href="#" class="text-light d-flex align-items-center"><i
+                                class='mx-2 bx bx-menu'></i>
+                            <h5 class=" fs-7 d-none d-lg-inline">MORE</h5>
+                        </a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>        
-
+    <main class="w-100">
+        <section class="header w-100 d-flex justify-content-center align-items-center flex-column">
+            <form class="search-form container rounded-3 m-4 p-5">
+                <h2 class="mb-3 text-dark fs-6 text-light fw-bold">SEARCH BY KEYWORD</h2>
+                <div class="d-flex flex-md-row flex-column">
+                    <input type="text" placeholder="Search" class="search flex-grow-1">
+                    <button type="submit" class="fw-bold text-light mx-md-2 my-2 my-md-0 btn btn-danger bg-red">SEARCH</button>
+                </div>
+            </form>
+            <a href="#" class="btn btn-lg btn-light border-1">How It works</a>
+        </section>
     </main>
     <footer>
 

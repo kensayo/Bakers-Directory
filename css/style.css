@@ -1,1 +1,25 @@
-@import "reset.css"
+@import "reset.css";
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 95px;    
+}
+
+.bg-red {
+    background-color: #D35649;
+}
+
+.logo {
+    height: 60px;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}

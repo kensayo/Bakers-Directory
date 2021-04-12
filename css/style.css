@@ -24,6 +24,14 @@ a {
   height: 60px;
 }
 
+.logo-footer {
+    height: 70px;
+}
+
+.top-logo {
+    top: -25px;
+}
+
 .fs-7 {
   font-size: 0.8rem;
 }

@@ -41,7 +41,7 @@
             </div>
         </nav>
     </header>
-    <main class="w-100">
+    <main>
         <section class="header w-100 d-flex justify-content-center align-items-center flex-column">
             <form class="search-form container rounded-3 m-4 p-5">
                 <h2 class="mb-3 text-dark fs-6 text-light fw-bold">SEARCH BY KEYWORD</h2>
@@ -53,7 +53,7 @@
             </form>
             <a href="#" class="btn btn-lg btn-light border-1">How It works</a>
         </section>
-        <section class="container">
+        <section class="container my-5">
             <div class="row my-4">
                 <h1 class="text-center color-red fs-3 fw-bold">DIRECTORY OF CAKE SHOPS WORK IN FOUR SIMPLE STEPS</h1>
             </div>
@@ -97,7 +97,7 @@
                     <p class="fs-6 fw-bold text-light my-2">Find a musician by using our filtered search engine</p>
                     <button class="btn btn-lg btn-light border-1 my-2 color-red fw-bold">Search</button>
                 </div>
-                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" src="/img/baker.jpg">
+                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" alt="Info Image" src="./img/baker.jpg">
             </article>
             <article
                 class="bg-secondary p-5 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
@@ -107,7 +107,7 @@
                     <p class="fs-6 fw-bold text-light my-2">Contact the musician directly without losing anytime</p>
                     <button class="btn btn-lg btn-light border-1 my-2 text-secondary fw-bold">Contact</button>
                 </div>
-                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" src="/img/delivery.jpg">
+                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" alt="Info Image" src="./img/delivery.jpg">
             </article>
             <article
                 class="bg-info p-5 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
@@ -117,28 +117,12 @@
                     <p class="fs-6 fw-bold text-light my-2">Very convenient platform that works nicely on all devices
                     </p>
                 </div>
-                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" src="/img/user.png">
+                <img class="img p-0 rounded-circle my-2 order-1 order-md-2" alt="Info Image" src="./img/user.png">
             </article>
         </section>
     </main>
-    <footer class="p-4 bg-dark">
+    <footer class="p-5 bg-dark">
         <nav class="p-2 border-top border-bottom border-2 border-secondary">
-            <!--
-            <div class="d-flex justify-content-around w-100 text-light">
-                <div class="d-flex justify-content-start">
-                    <a href="#" class="fw-bold px-3 text-light">Home</a>
-                    <a href="#" class="fw-bold px-3 text-light">Search</a>
-                    <a href="#" class="fw-bold px-3 text-light">About</a>
-                    <a href="#" class="fw-bold px-3 text-light">More</a>
-                </div>
-                <a href="#"><img src="img/logo.svg" class="img-fluid bg-light rounded-circle h-100" alt="Logo"></a>
-                <div class="d-flex justify-content-end">
-                    <a href="#" class="fw-bold px-3 text-light">Facebook</a>
-                    <a href="#" class="fw-bold px-3 text-light">Twitter</a>
-                    <a href="#" class="fw-bold px-3 text-light">Instagram</a>
-                    <a href="#" class="fw-bold px-3 text-light">Feed</a>
-                </div>
-            </div>-->
             <div class="row position-relative d-flex justify-content-around flex-row">
                 <div class="d-none d-md-flex top-logo justify-content-center position-absolute">
                     <img src="img/logo.svg" class="img-fluid bg-light rounded-circle p-3" alt="Logo">
@@ -156,6 +140,31 @@
                     <a href="#" class="text-center my-2 my-md-0 fw-bold text-light">Instagram</a>
                     <a href="#" class="text-center my-2 my-md-0 fw-bold text-light">Feed</a>
                 </div>
+            </div>
         </nav>
+        <section class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-4 my-2">
+                <h2 class="text-light fw-bold text-center fs-3">SUBSCRIBE</h2>
+                <form class="m-3">
+                    <div class="d-flex flex-md-row flex-column">
+                        <input type="email" placeholder="Email" class="flex-grow-1">
+                        <button type="submit"
+                            class="fs-6 text-light btn btn-secondary bg-secondary ms-0 ms-md-1 my-1 my-md-0 py-1 px-4">SEND</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 my-2">
+                <h2 class="text-light fw-bold text-center fs-3">CONTACT</h2>
+                <p class="text-light fs-5 text-center my-3">Have aquestion or submission</p>
+                <p class="text-center my-3"><a class="color-red fs-5" href="mailto:email@email.com">email@email.com</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 my-2">
+                <h2 class="text-light fw-bold text-center fs-3">ABOUT</h2>
+                <p class="text-light fs-5 text-center my-3 lh-sm">Directory of Cake Shops is a Capstone project under
+                    Microverse program realised by <a class="color-red" href="https://twitter.com/kensayo">Kenny
+                        Ortega</a></p>
+            </div>
+        </section>
     </footer>
 </body>

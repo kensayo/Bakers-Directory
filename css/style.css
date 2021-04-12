@@ -24,12 +24,8 @@ a {
   height: 60px;
 }
 
-.logo-footer {
-    height: 70px;
-}
-
 .top-logo {
-    top: -25px;
+  top: -25px;
 }
 
 .fs-7 {
@@ -54,23 +50,23 @@ a {
 }
 
 .img {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
-    .img {
-        height: 250px;
-        width: 250px;
-        object-fit: cover;
-    }
+  .img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 992px) {
-    .img {
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-    }
+  .img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
 }

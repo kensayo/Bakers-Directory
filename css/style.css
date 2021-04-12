@@ -55,6 +55,10 @@ a {
   object-fit: cover;
 }
 
+.top {
+    z-index: 999;
+}
+
 @media (min-width: 768px) {
   .img {
     height: 250px;

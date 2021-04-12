@@ -44,3 +44,25 @@ a {
 .search {
   min-height: 31px;
 }
+
+.img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+}

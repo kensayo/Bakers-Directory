@@ -19,7 +19,7 @@
             class="navbar bg-red d-flex flex-md-row flex-column justify-content-center justify-content-md-between align-items-center px-5">
             <div class="d-flex flex-row align-items-center my-2">
                 <img src="img/logo.svg" class="img-fluid logo bg-light rounded-circle p-1" alt="Logo">
-                <h2 class="ps-3 fs-3 text-light fw-bold px-1">Cake Shops Directory</h2>
+                <a href="index.html" class="stretched-link"><h2 class="ps-3 fs-3 text-light fw-bold px-1">Cake Shops Directory</h2></a>
             </div>
             <div class="my-2">
                 <ul class="list-group list-group-horizontal">
@@ -44,7 +44,58 @@
         </nav>
     </header>
     <main>
-        
+        <section class="my-3 my-md-5 bg-light p-3 p-md-5">
+            <form class="m-2 m-md-4">
+                <h2 class="p-1 my-4 fs-3 text-center text-secondary fw-bold">Filter by Name, City, State, Price Range and Type:</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">Name</h3>
+                        <input class="search w-100" type="text" placeholder="Cake Shop Name">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">City</h3>
+                        <input class="search w-100" type="text" placeholder="City">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">State</h3>
+                        <input class="search w-100" type="text" placeholder="Cake Shop Name">
+                    </div>                    
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">Prices Range</h3>
+                        <select class="search w-100" aria-label="Select price range">
+                            <option selected value="1">$</option>
+                            <option value="2">$$</option>
+                            <option value="3">$$$</option>
+                            <option value="4">$$$$</option>
+                          </select>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">Type</h3>
+                        <select class="search w-100" aria-label="Select Type">
+                            <option selected value="1">Fondant</option>
+                            <option value="2">Chocolate</option>
+                            <option value="3">Cream</option>
+                            <option value="4">Naked</option>
+                          </select>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 p-1">
+                        <h3 class="fs-5 my-2 fw-bold">&nbsp;</h3>
+                        <input class="rounded-0 search p-0 w-100 btn bg-red text-light fw-bold fs-5" type="submit"></div>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h1 class="fs-3 fw-bold text-center">Search Result find 6 Cake Shop(s)</h1>
+            <div class="my-3 p-1 p-md-3 p-lg-5">
+                <div class="col-12 col-md-6 col-lg-4 position-relative d-flex justify-content-center">
+                    <img class="img-fluid" alt="Search Result" src="img/logo-1.jpg">
+                    <h2 class="position-absolute  fs-3 fw-bold top-0 py-3">Firefly Bakery</h2>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="p-5 bg-dark">
         <nav class="p-2 border-top border-bottom border-2 border-secondary">

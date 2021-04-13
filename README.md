@@ -10,12 +10,12 @@
 
 ![Screenshot](./screenshots/main.png)
 
-##### This page is meant to allow the user to search for cats or shelters using keywords. If he or she doesn't know how to navigate the site, there's a button just below the search bar that'll scroll down, taking the user to a part of the website that explains everything.
+##### This page is meant to allow the user to search for Cake Shops using keywords. If he or she doesn't know how to navigate the site, there's a button just below the search bar that'll scroll down, taking the user to a part of the website that explains everything.
 
 ### Search Result Page
 ![Screenshot](./screenshots/search.png)
 
-#### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name of shelter, or by characteristic of the cat you're looking for.
+#### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name, city, state, prices range and type.
 
 ### Detail Page
 ![Screenshot](./screenshots/results.png)
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 On GitHub bash 
-    _git clone https://github.com/kensayo/TNW-wk2.git_
+    _git clone https://github.com/kensayo/Bakers-Directory.git_
 
 ### Usage
 

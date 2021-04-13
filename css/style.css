@@ -78,3 +78,11 @@ a {
 .search-result:hover {
   transform: scale(1.1);
 }
+
+.result {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 992px;
+  flex-direction: column;
+}

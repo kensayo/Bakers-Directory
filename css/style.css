@@ -89,3 +89,7 @@ a {
   max-width: 1200px;
   flex-direction: column;
 }
+
+.map {
+  height: 500px;
+}

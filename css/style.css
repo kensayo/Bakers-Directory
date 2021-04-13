@@ -75,14 +75,17 @@ a {
   }
 }
 
-.search-result:hover {
-  transform: scale(1.1);
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
 }
 
 .result {
   display: flex;
-  justify-content: start;
   align-items: center;
-  max-width: 992px;
+  max-width: 1200px;
   flex-direction: column;
 }

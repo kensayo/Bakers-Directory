@@ -1,9 +1,5 @@
 @import "reset.css";
 
-* {
-  outline: 1px solid red !important;
-}
-
 body {
   font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   box-sizing: border-box;

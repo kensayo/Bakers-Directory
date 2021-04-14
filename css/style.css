@@ -1,7 +1,12 @@
 @import "reset.css";
 
+* {
+  outline: 1px solid red !important;
+}
+
 body {
   font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -88,6 +93,13 @@ a {
   align-items: center;
   max-width: 1200px;
   flex-direction: column;
+}
+
+.center-div {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
 }
 
 .map {

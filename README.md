@@ -1,76 +1,88 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Cake Shops
 
-> One paragraph statement about the project.
+ ## This page is my Capstone project for the Microverse's HTML and CSS course curriculum. The design was inspired on the work of [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and others on Behance, specially this project: [patashuleke](https://www.behance.net/gallery/25563385/PatashuleKE).
 
-![screenshot](./app_screenshot.png)
+#### The original design is a Directory of Schools, but we are encouraged to change the theme to a different one, so I went ahead and created a site that helps people to find the perfect Cake Shop.
 
-Additional description about the project and its features.
+### Main Page
 
-## Built With
+![Screenshot](./screenshots/main.png)
 
-- Major languages
-- Frameworks
-- Technologies used
+##### This page is meant to allow the user to search for Cake Shops using keywords. If he or she doesn't know how to navigate the site, there's a button just below the search bar that'll scroll down, taking the user to a part of the website that explains everything.
 
-## Live Demo
+### Search Result Page
+![Screenshot](./screenshots/search.png)
 
-[Live Demo Link](https://livedemo.com)
+#### This page shows the results of a search made by keywords in the main page, or by categories in this same page. You can search by name, city, state, prices range and type.
 
+### Detail Page
+![Screenshot](./screenshots/results.png)
+
+##### This page show the detail info from the Cake Shop with phone number, range of prices, type, city, state and phone number.
+
+### Built with
+    HTML5
+    CSS3
+    Bootstrap
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Have a compatible web browser that supports HTML5 and CSS3 in order to correctly display the website.
+- A text editor in order to view and edit code. Popular text editors include VSCode and Notepad++.
+
 ### Setup
 
-### Install
+On GitHub bash 
+    _git clone https://github.com/kensayo/Bakers-Directory.git_
 
 ### Usage
 
-### Run tests
+- Most Operative Systems have the .html file extension associated to open with your default web browser. In order to review the code, you may use your web browser inspect element option or open directly with a text editor.
 
-### Deployment
+- In the cloned folder access to
+    _index.html_
 
 
+## 👤 Kenny Ortega
 
-## Authors
+- GitHub: [kensayo](https://github.com/kensayo)
+- Twitter: [@kensayo](https://twitter.com/kensayo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenny-ortega-3580aa33/)
 
-👤 **Author1**
+### Check it online!
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+ # [Live Preview](https://kensayo.github.io/Bakers-Directory/)
 
-👤 **Author2**
+### The specifications of the project were as follows:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+#### 1- This is a real-world-like project with a design made by a professional. 
+I didn't have an exact page to just inspect the code and have tips of how to build it; I had only the design to be inspired upon. I was expected to select, with my own knowledge, the proper technologies and techniques to achieve the business specifications.
 
-## 🤝 Contributing
+#### 2- I had to create three pages: 
+- the main page (search page), with a link to the results page.
+- the search results page, with a list of schools (or, in this case, cake shops) each with a link to the detail page.
+- the detail page.
 
-Contributions, issues, and feature requests are welcome!
+#### 3- Each of these pages should have versions for 3 different screen sizes: 
 
-Feel free to check the [issues page](../../issues/).
+- mobile: up to 768px
+- tablet: up to 1024px
+- desktop: from 1024px
 
-## Show your support
+#### 4- I had to follow the guidelines of the given design, including:
 
-Give a ⭐️ if you like this project!
+- colors (they are not explicitly in the design, but I could pick them from the design page)
+- typographies: font face, size and weight (I could use a similar one given on the design)
+- layout: composition and space between elements, for the 3 given screen sizes;
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+### Contributions and issues are welcome!
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+License
+This project is MIT licensed.

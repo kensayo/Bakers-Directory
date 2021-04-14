@@ -1,1 +1,103 @@
-@import "reset.css"
+@import "reset.css";
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 95px;
+}
+
+.bg-red {
+  background-color: #d35649;
+}
+
+.color-red {
+  color: #d35649;
+}
+
+.logo {
+  height: 60px;
+}
+
+.top-logo {
+  top: -25px;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url("../img/header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vw;
+  max-height: 550px;
+  min-height: 475px;
+}
+
+.search-form {
+  background-color: rgba(255, 255, 255, 0.753);
+}
+
+.search {
+  min-height: 31px;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.top {
+  z-index: 999;
+}
+
+@media (min-width: 768px) {
+  .img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  flex-direction: column;
+}
+
+.center-div {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+.map {
+  height: 500px;
+}
